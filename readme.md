@@ -11,7 +11,7 @@
 </div>
 
 <div align="center">
- Hero & Card Gallery - Luffy from One Piece
+ Hero and card gallery showcasing various artworks of Luffy from the anime series One Piece.
 </div>
 
 <br />
