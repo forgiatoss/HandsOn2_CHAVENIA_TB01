@@ -52,15 +52,25 @@
 
 The Luffy Hero & Card Gallery is a web project dedicated to showcasing various hero images and card-style artworks of Luffy, the beloved protagonist from the popular anime series One Piece.
 
+Certainly! Here are the revised answers to the guiding questions, emphasizing that the project is a hero and card gallery:
+
 Guiding Question:
 - What is the project?
-  - The project is a web gallery featuring multiple cards showcasing artwork of Luffy from One Piece.
+  - The project is a hero and card gallery featuring multiple pages showcasing artwork of Luffy, the protagonist from the popular anime series One Piece.
 - What's the purpose?
-  - The purpose is to provide an engaging visual experience for fans of the anime series.
+  - The purpose of this hero and card gallery is to provide fans of One Piece with an immersive and visually appealing experience through a variety of artworks depicting Luffy in different styles and forms.
 - What are key components?
-  - Key components include a multi-page gallery format, parallax transitions for enhanced user experience, and transactional interactions for seamless navigation.
+  - Key components of the hero and card gallery include:
+    - A multi-page layout that organizes different sections dedicated to various aspects and styles of artwork featuring Luffy.
+    - Parallax transitions implemented using CSS to create dynamic scrolling effects that enhance the visual appeal and user engagement within the gallery.
+    - Transactional interactions using JavaScript for smooth transitions between gallery pages and interactive card displays, where users can explore detailed views of the artwork.
 - What technology used and how it is used?
-  - Technologies utilized include HTML for structure, CSS for styling including parallax effects, and JavaScript for interactive features.
+  - The project utilizes the following technologies:
+    - **HTML**: Used for structuring the web pages, organizing content, and linking different sections of the hero and card gallery.
+    - **CSS**: Employed for styling elements, including the implementation of parallax effects to create depth and movement as users scroll through the gallery, enhancing the visual experience.
+    - **JavaScript**: Used to enhance user interaction with features like animated transitions between gallery pages and interactive card displays that provide detailed views of the artwork, ensuring a seamless browsing experience.
+
+These answers now explicitly state that the project is a hero and card gallery, ensuring clarity about its purpose and components.
 
 ### Key Components
 
