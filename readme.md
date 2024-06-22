@@ -95,7 +95,7 @@ HANDSON2_CHAVENIA_TB01
 │   │   └── style.css
 │   ├── img/
 │   ├── js/
-│       └── script.js
+│   │   └── script.js
 ├── pages/
 │   ├── card-gallery/
 │   │   ├── assets/
