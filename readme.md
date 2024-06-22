@@ -7,7 +7,7 @@
   <a href="https://github.com/forgiatoss/">
     <img src="./assets/img/luffy.png" alt="Nyebe" width="130" height="130">
   </a>
-  <h3 align="center">Hero & Card Gallery</h3>
+  <h3 align="center">Luffy Hero & Card Gallery</h3>
 </div>
 
 <div align="center">
@@ -50,7 +50,7 @@
 
 ## Overview
 
-The Hero & Card Gallery project showcases various interpretations of Luffy from the anime series One Piece. It includes both a hero gallery and a card gallery, aiming to provide fans with a comprehensive visual experience.
+The Luffy Hero & Card Gallery is a web project dedicated to showcasing various hero images and card-style artworks of Luffy, the beloved protagonist from the popular anime series One Piece.
 
 Guiding Question:
 - What is the project?
