@@ -1,0 +1,113 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../../assets/img/background2.jpg'); /* Use background2.jpg */
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+.header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+    background: transparent;
+    z-index: 10;
+}
+
+.header img.luffy {
+    width: 75px;  /* Adjust as needed */
+    height: auto;  /* Maintains aspect ratio */
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.search-button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.search-icon {
+    width: 24px;  /* Adjust as needed */
+    height: 24px; /* Adjust as needed */
+}
+
+.search-input {
+    padding: 0.5em;
+    margin-left: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Hero Gallery Styles */
+.hero-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin: 1em 0;
+}
+
+.hero-gallery img {
+    width: 100px;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Main Container Styles */
+.container {
+    position: relative;
+    background: rgba(255, 255, 255, 0.8); /* Adjust transparency */
+    padding: 2em;
+    margin: 2em auto;
+    max-width: 800px;
+    border-radius: 8px;
+}
+
+.main-content {
+    text-align: center;
+}
+
+.content h1, .content h2, .content p {
+    margin: 0.5em 0;
+}
+
+/* Button Styles */
+.buttons {
+    margin-top: 1em;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.75em 1.5em;
+    margin: 0.5em;
+    color: #fff;
+    background-color: #007BFF;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Gallery Styles */
+.gallery-item {
+    margin: 1em 0;
+    text-align: center;
+}
+
+.gallery-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}

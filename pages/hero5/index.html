@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hero 1</title>
+    <link rel="stylesheet" href="../../assets/css/style.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('../../assets/img/background 2.jpg');
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+        }
+
+        .header {
+            position: relative;
+            display: flex;
+            align-items: center;
+            padding: 1em;
+            background: transparent;
+            z-index: 10;
+        }
+
+        .luffy {
+            width: 50px;
+            height: auto;
+        }
+
+        .search-container {
+            display: flex;
+            align-items: center;
+            margin-left: auto;
+        }
+
+        .search-button {
+            background: transparent;
+            border: none;
+            cursor: pointer;
+        }
+
+        .search-icon {
+            width: 24px;
+            height: 24px;
+        }
+
+        .search-input {
+            padding: 0.5em;
+            margin-left: 0.5em;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .hero-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 2em;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .hero-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 1em;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+        }
+
+        .hero-text {
+            background-color: rgba(255, 255, 255, 0.8); /* Transparent white background */
+            padding: 1em;
+            text-align: center;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 0.75em 1.5em;
+            margin: 1em;
+            color: #fff;
+            background-color: #007BFF;
+            border-radius: 4px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <img src="../../assets/img/luffy.png" alt="Luffy Logo" class="luffy">
+        <div class="search-container">
+            <button class="search-button">
+                <img src="../../assets/img/search.png" alt="Search Icon" class="search-icon">
+            </button>
+            <input type="text" placeholder="Search" class="search-input">
+        </div>
+    </header>
+    <div class="hero-container">
+        <div class="hero-image">
+            <img src="../../assets/img/luffy gear 5.gif" alt="Animated Card 5">
+        </div>
+        <div class="hero-text">
+            <h2>Luffy Gear 5</h2>
+            <p>Description: Gear 5 is an imagined evolution speculated by fans, envisaging Luffy's near-mythical power surge after a transformative experience with his Devil Fruit.</p>
+            <p>Visual Effects: Features include white hair with flame-like wisps, cartoonish eyes with spirals or symbols, and a hyper-rubbery physique that distorts surroundings.</p>
+            <p>Abilities: Gear 5 grants Luffy "Toon Force," bending reality in cartoonish manners like transforming attacks or evading as flowing smoke. Enhanced rubber abilities allow extreme stretching and size manipulation, alongside the ability to reflect attacks with "Gomu Gomu no Oazukeshi" and unleash devastating flames with "Gomu Gomu no Bajrang Gun," combining all Haki types for overwhelming power.</p>
+        </div>
+    </div>
+    <a href="../../index.html" class="btn">Back to Home</a>
+</body>
+</html>
