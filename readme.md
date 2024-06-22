@@ -4,7 +4,7 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
+  <a href="https://github.com/forgiatoss/">
     <img src="./assets/img/luffy.png" alt="Nyebe" width="130" height="130">
   </a>
   <h3 align="center">Card Gallery</h3>
