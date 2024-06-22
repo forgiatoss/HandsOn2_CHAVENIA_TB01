@@ -7,7 +7,7 @@
   <a href="https://github.com/forgiatoss/">
     <img src="./assets/img/luffy.png" alt="Nyebe" width="130" height="130">
   </a>
-  <h3 align="center">Card Gallery</h3>
+  <h3 align="center">Hero & Card Gallery</h3>
 </div>
 
 <div align="center">
@@ -16,7 +16,7 @@
 
 <br />
 
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/Card-Gallery)
+![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/HandsOn2_CHAVENIA_TB01)
 
 ---
 
