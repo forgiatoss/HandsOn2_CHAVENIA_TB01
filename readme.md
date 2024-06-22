@@ -11,7 +11,7 @@
 </div>
 
 <div align="center">
-  A web project showcasing a card gallery featuring different versions of Luffy from the anime series One Piece.
+ Hero & Card Gallery - Luffy from One Piece
 </div>
 
 <br />
@@ -50,7 +50,7 @@
 
 ## Overview
 
-The Card Gallery project is designed to display various artworks of Luffy, the main character from One Piece. It aims to provide fans with a visually appealing showcase of different interpretations and styles of Luffy through art cards.
+The Hero & Card Gallery project showcases various interpretations of Luffy from the anime series One Piece. It includes both a hero gallery and a card gallery, aiming to provide fans with a comprehensive visual experience.
 
 Guiding Question:
 - What is the project?
