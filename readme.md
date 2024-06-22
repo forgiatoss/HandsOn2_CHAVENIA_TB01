@@ -70,8 +70,6 @@ Guiding Question:
     - **CSS**: Employed for styling elements, including the implementation of parallax effects to create depth and movement as users scroll through the gallery, enhancing the visual experience.
     - **JavaScript**: Used to enhance user interaction with features like animated transitions between gallery pages and interactive card displays that provide detailed views of the artwork, ensuring a seamless browsing experience.
 
-These answers now explicitly state that the project is a hero and card gallery, ensuring clarity about its purpose and components.
-
 ### Key Components
 
 - MultiPage Website/Single Page Website
