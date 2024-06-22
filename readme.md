@@ -5,7 +5,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/zyx-0314/">
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/luffy.png" alt="Nyebe" width="130" height="100">
   </a>
   <h3 align="center">Card Gallery</h3>
 </div>
@@ -94,6 +94,32 @@ HANDSON2_CHAVENIA_TB01
 │   ├── css/
 │   │   └── style.css
 │   ├── img/
+│   │   └── background 2.jpg
+│   │   └── background 3.jpg
+│   │   └── background.jpg
+│   │   └── gear 1 luffy.jpg
+│   │   └── gear 2 luffy.jpg
+│   │   └── gear 3 luffy.jpg
+│   │   └── gear 4 luffy snake man.jpg
+│   │   └── gear 4 luffy tank man.jpg
+│   │   └── gear 5 luffy.jpg
+│   │   └── gear_1_luffy-removebg-preview.png
+│   │   └── gear_2_luffy-removebg-preview.png
+│   │   └── gear_4_luffy_snake_man-removebg-preview.png
+│   │   └── gear_4_luffy_tank_man-removebg-preview.png
+│   │   └── gear_5_luffy-removebg-preview.png
+│   │   └── luffy 1.gif
+│   │   └── luffy 2.gif
+│   │   └── luffy gear 2.gif
+│   │   └── luffy gear 3.gif
+│   │   └── luffy gear 4.gif
+│   │   └── luffy gear 5 hero.gif
+│   │   └── luffy gear 5.gif
+│   │   └── luffy.png
+│   │   └── nyebe_white.png
+│   │   └── search.png
+│   │   └── VALORANT bg.jpg
+│   │   └── VALORANT.jpg
 │   ├── js/
 │   │   └── script.js
 ├── pages/
