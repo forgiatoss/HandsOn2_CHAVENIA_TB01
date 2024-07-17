@@ -1,18 +1,124 @@
-.card-container {
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Header Styles */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+    background: #007BFF;
+    color: #fff;
+}
+
+.header img.luffy {
+    width: 50px;
+}
+
+.nav {
+    display: flex;
+    gap: 1em;
+}
+
+.nav-link {
+    padding: 0.5em 1em;
+    background: #0056b3;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.nav-link:hover {
+    background: #004080;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.search-icon {
+    width: 24px;
+}
+
+.search-input {
+    padding: 0.5em;
+    margin-left: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Card Gallery Styles */
+.card-gallery {
     display: flex;
     flex-wrap: wrap;
+    gap: 1em;
+    padding: 2em;
     justify-content: center;
 }
 
 .card {
-    margin: 20px;
-    padding: 20px;
-    background-color: white;
-    border-radius: 10px;
+    background: #fff;
+    border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s;
+    overflow: hidden;
+    transition: transform 0.3s;
+    width: calc(33.333% - 1em);
+    max-width: 300px;
 }
 
 .card:hover {
-    transform: scale(1.05);
+    transform: translateY(-10px);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 1em;
+    text-align: center;
+}
+
+.card-content h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.card-content p {
+    font-size: 1em;
+}
+
+/* Footer Styles */
+.footer {
+    text-align: center;
+    padding: 1em;
+    background: #007BFF;
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
 }

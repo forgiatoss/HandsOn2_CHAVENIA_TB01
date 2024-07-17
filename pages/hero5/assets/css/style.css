@@ -1,30 +1,51 @@
-body {
+/* General Styles */
+body, html {
     margin: 0;
     padding: 0;
+    font-family: 'Arial', sans-serif;
     background-color: #f0f0f0;
-    font-family: Arial, sans-serif;
+    color: #333;
+    box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Header Styles */
 .header {
-    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 1em;
     background: #007BFF;
     color: #fff;
-    z-index: 10;
 }
 
-.luffy {
+.header img.luffy {
     width: 50px;
-    height: auto;
+}
+
+.btn {
+    padding: 0.5em 1em;
+    background: #0056b3;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #004080;
 }
 
 .search-container {
     display: flex;
     align-items: center;
-    margin-left: auto;
 }
 
 .search-button {
@@ -35,7 +56,6 @@ body {
 
 .search-icon {
     width: 24px;
-    height: 24px;
 }
 
 .search-input {
@@ -45,29 +65,37 @@ body {
     border-radius: 4px;
 }
 
+/* Hero Container Styles */
 .hero-container {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
     margin-top: 2em;
-}
-
-.hero-image {
-    max-width: 100%;
-    height: auto;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2em;
+    background: #fff;
     border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.btn {
-    display: inline-block;
-    padding: 0.75em 1.5em;
-    margin: 0.5em;
-    color: #fff;
-    background-color: #007BFF;
-    border-radius: 4px;
-    text-decoration: none;
-    transition: background-color 0.3s;
+.hero-image img {
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.btn:hover {
-    background-color: #0056b3;
+.hero-text {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.hero-text h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.hero-text p {
+    font-size: 1.2em;
 }

@@ -3,120 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hero 1</title>
-    <link rel="stylesheet" href="../../assets/css/style.css">
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            background-image: url('../../assets/img/background 2.jpg');
-            background-size: cover;
-            background-position: center;
-            font-family: Arial, sans-serif;
-        }
-
-        .header {
-            position: relative;
-            display: flex;
-            align-items: center;
-            padding: 1em;
-            background: transparent;
-            z-index: 10;
-        }
-
-        .luffy {
-            width: 50px;
-            height: auto;
-        }
-
-        .search-container {
-            display: flex;
-            align-items: center;
-            margin-left: auto;
-        }
-
-        .search-button {
-            background: transparent;
-            border: none;
-            cursor: pointer;
-        }
-
-        .search-icon {
-            width: 24px;
-            height: 24px;
-        }
-
-        .search-input {
-            padding: 0.5em;
-            margin-left: 0.5em;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-        }
-
-        .hero-container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            margin-top: 2em;
-            max-width: 800px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        .hero-image {
-            max-width: 100%;
-            height: auto;
-            border-radius: 8px;
-            margin-bottom: 1em;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
-        }
-
-        .hero-text {
-            background-color: rgba(255, 255, 255, 0.8); /* Transparent white background */
-            padding: 1em;
-            text-align: center;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
-        }
-
-        .btn {
-            display: inline-block;
-            padding: 0.75em 1.5em;
-            margin: 1em;
-            color: #fff;
-            background-color: #007BFF;
-            border-radius: 4px;
-            text-decoration: none;
-            transition: background-color 0.3s;
-        }
-
-        .btn:hover {
-            background-color: #0056b3;
-        }
-    </style>
+    <title>Hero 3 - Luffy Gear 3</title>
+    <link rel="stylesheet" href="/pages/hero1/assets/css/style.css">
+    <script src="/pages/hero3/assets/js/scripts.js" defer></script>
 </head>
 <body>
     <header class="header">
-        <img src="../../assets/img/luffy.png" alt="Luffy Logo" class="luffy">
+        <img src="/assets/img/luffy.png" alt="Luffy Logo" class="luffy">
+        <a href="/index.html" class="btn">Back to Home</a>
         <div class="search-container">
             <button class="search-button">
-                <img src="../../assets/img/search.png" alt="Search Icon" class="search-icon">
+                <img src="/assets/img/search.png" alt="Search Icon" class="search-icon">
             </button>
             <input type="text" placeholder="Search" class="search-input">
         </div>
     </header>
-    <div class="hero-container">
+    <main class="hero-container">
         <div class="hero-image">
-            <img src="../../assets/img/luffy gear 3.gif" alt="Animated Card 3">
+            <img src="/assets/img/luffy gear 3.gif" alt="Luffy Gear 3">
         </div>
-        <Visual class="hero-text">
+        <div class="hero-text">
             <h2>Luffy Gear 3</h2>
-            <p>DDescription: Luffy inflates his bones to enormous proportions, significantly increasing his size and strength.</p>
-            <p>Visual Effect: His limbs become gigantic, with a noticeable size increase, especially his arms.</p>
-            <p>pAbilities: Grants Luffy immense physical strength and the ability to deliver devastating blows. However, it reduces his speed and agility due to the increased size and weight of his limbs.</p>
+            <p>Description: Enlarged limbs for powerful attacks with bone ballooning.</p>
+            <p>Visual Effect: Luffy's limbs become gigantically enlarged.</p>
+            <p>Abilities: Massive attacks with immense destructive power.</p>
         </div>
-    </div>
-    <a href="../../index.html" class="btn">Back to Home</a>
+    </main>
+    <footer class="footer">
+        <p>&copy; 2024 Advanced Hero Gallery. All rights reserved.</p>
+    </footer>
 </body>
 </html>
